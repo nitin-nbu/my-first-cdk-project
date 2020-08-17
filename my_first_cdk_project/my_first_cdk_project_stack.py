@@ -12,7 +12,7 @@ class MyFirstCdkProjectStack(core.Stack):
         _s3.Bucket(
             self,
             "myBucketId",
-            bucket_name='nitincdkbucket0019',
+            bucket_name='abccdkbucket001',
             versioned=True,
             encryption=_s3.BucketEncryption.KMS_MANAGED
         )
